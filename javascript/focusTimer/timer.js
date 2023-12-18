@@ -13,8 +13,6 @@ export function countDown(){
     let minutes = Number(elementos.minutes.textContent)
     let seconds = Number(elementos.seconds.textContent)
 
-    console.log('Sá poha entrou aqui')
-
     seconds--
 
     if (seconds < 0){
