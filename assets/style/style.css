@@ -39,6 +39,14 @@ button:hover {
 .left {
     display: grid;
     place-content: center;
+    min-width: 32rem;
+    align-items: center;
+    margin: auto;
+}
+
+.controlsLeft{
+    min-width: 32rem;
+
 }
 
 span {

@@ -9,6 +9,11 @@ export function toggleRunning(){
     console.log(state.isRunning)
 }
 
+export function set(){
+    elementos.minutes.setAttribute('contenteditable', true)
+    elementos.minutes.focus()
+}
+
 export function reset(){
     state.isRunning = false
     timer.updateDisplay()
@@ -31,11 +36,8 @@ export function subtraction(){
     let minutes = Number(elementos.minutes.textContent)
     let sum = minutes - 5 
     if ( minutes <= 4) {
-        elementos.minutes.textContent = '00'
         return
-        timer.updateDisplay()
     }  
-    timer.updateDisplay()
     elementos.minutes.textContent = sum
 }
 

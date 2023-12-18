@@ -1,5 +1,6 @@
 import * as elementos from "./elements.js"
 import state from "./state.js"
+import * as actions from "./actions.js"
 
 
 export function countDown(){
@@ -21,6 +22,7 @@ export function countDown(){
     }
     
     if(minutes < 0 ) {
+        actions.reset()
         return
     }
 
