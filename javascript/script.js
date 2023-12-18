@@ -6,6 +6,7 @@ start()
 
 
 function start() {
+    elementos.minutes.textContent = state.minutes
     events.registerControlsRigth()
     events.registerControlsLeft()
 }

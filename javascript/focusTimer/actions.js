@@ -1,20 +1,21 @@
 import state from "./state.js";
 import * as musics from "./music.js"
-import * as elementos from "./elements.js"
+import * as timer from "./timer.js"
 
 export function toggleRunning(){
     state.isRunning = document.documentElement.classList.toggle('running')
+    timer.countDown()
     console.log(state.isRunning)
 }
 
 export function reset(){
     state.isRunning = false
+    timer.updateDisplay()
     document.documentElement.classList.remove('running')
 }
 
 export function musicTree() {
     state.musicOn = document.documentElement.classList.toggle('music-on')
-
     if(state.musicOn) {
         musics.musicTree.play()
         return
