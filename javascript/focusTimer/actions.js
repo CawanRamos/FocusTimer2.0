@@ -43,6 +43,7 @@ export function subtraction(){
 
 export function musicTree() {
     state.musicOn = document.documentElement.classList.toggle('music-on')
+    elementos.musicTree[0].classList.toggle('colorClick')
     if(state.musicOn) {
         musics.musicTree.play()
         return
@@ -52,6 +53,7 @@ export function musicTree() {
 
 export function musicCloud() {
     state.musicOn = document.documentElement.classList.toggle('music-on')
+    elementos.musicCloud[0].classList.toggle('colorClick')
     if(state.musicOn) {
         musics.musicCloud.play()
         return

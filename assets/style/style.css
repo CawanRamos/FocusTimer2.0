@@ -95,6 +95,10 @@ span {
     background-color: var(--card-background-selected);
 }
 
+.right .colorClick img {
+    filter: saturate(0%) brightness(0%) invert(100%);
+}
+
 .filter {
     filter: saturate(0%) brightness(0%) invert(100%);
 }

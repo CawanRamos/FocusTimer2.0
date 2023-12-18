@@ -6,3 +6,6 @@ export const minutes = document.getElementById('minutes')
 
 export const seconds = document.getElementById('seconds')
 
+export const musicTree = document.getElementsByClassName('buttonMusicTree') 
+
+export const musicCloud = document.getElementsByClassName('buttonMusicCloud')
