@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temporizador 2.0 para utilizar com a técnica Pomodoro">
+
+    <title>Focus Timer 2.0</title>
+
+    <link rel="shortcut icon" href="./assets/img/fav-icon.svg" type="image/x-svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="./javascript/script.js" defer type="module"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="left">
+            <section id="timer">
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </section>
+            <section id="controlsLeft" class="controlsLeft">
+                <button data-action="toggleRunning" class="ph ph-play-circle secundary"></button>
+                <button  data-action="toggleRunning" class="ph ph-pause-circle secundary"></button>
+                <button data-action="set" class="ph ph-timer secondary"></button>
+                <button data-action="reset" class="ph ph-stop-circle secondary"></button>
+                <button data-action="sum" class="ph ph-plus-circle"></button>
+                <button data-action="subtraction" class="ph ph-minus-circle"></button>
+            </section>
+        </div>
+
+        <div id="controlsRight"  class="right">
+                <button data-action="musicTree" class="buttonMusicTree colorClick"><img data-action="musicTree" class="buttonMusicTree filter" src="./assets/img/tree.svg"></button>
+                <button data-action="musicCloud" class="buttonMusicCloud"><img data-action="musicCloud" class="buttonMusicCloud"  src="./assets/img/cloud.svg"></button>
+                <button data-action="musicMarket" class="buttonMusicMarket"><img data-action="musicMarket" class="buttonMusicMarket" src="./assets/img/market.svg"></button>
+                <button data-action="musicFire" class="buttonMusicFire"><img data-action="musicFire"  class="buttonMusicFire" src="./assets/img/fire.svg"></button>
+        </div>
+    </div>
+
+</body>
+</html>
