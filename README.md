@@ -21,7 +21,5 @@ Realizei o desenvolvimento do projeto com as seguintes tecnologias:
 
 ## 🎨 Layout 
 
-
 - O layout utilizado para desenvolvimento do projeto foi fornecido pela Rocketseat; 
-- Você pode acessar pelo link https://www.figma.com/file/1xF9uYRkqACsDiHZgGirOF/Stage-05-Focus-Timer-2.0-Copy?fuid=849470271837717694
-****
+- Você pode acessar pelo link https://www.rocketseat.com.br/boracodar/desafios-anteriores/um-widget-de-avaliacao-de-produto-desafio-39
