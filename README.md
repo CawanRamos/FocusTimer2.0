@@ -17,9 +17,9 @@ Realizei o desenvolvimento do projeto com as seguintes tecnologias:
 - Este projeto é um timer versátil com funcionalidades para melhorar sua produtividade e concentração.
 - Inicie o timer com a duração padrão de 25 minutos, e personalize-o adicionando ou diminuindo incrementos de 5 minutos conforme necessário (limitado a 60 minutos). Você também tem a opção de ajustar manualmente o tempo do timer para atender às suas necessidades      específicas.
 - Também é possivel escolher entre quatro estilos diferentes de sons ambientes para acompanhar seu período de trabalho ou concentração.
-- Você pode acessar meu projeto finalizado pelo link.
+- Você pode acessar meu projeto finalizado pelo link: https://cawanramos.github.io/FocusTimer2.0/
 
 ## 🎨 Layout 
 
 - O layout utilizado para desenvolvimento do projeto foi fornecido pela Rocketseat; 
-- Você pode acessar pelo link 
+- Você pode acessar pelo link: https://www.figma.com/file/Pw8yMsK7HFkD6aISZt6gPA/Stage-05---Focus-Timer-2.0/duplicate
